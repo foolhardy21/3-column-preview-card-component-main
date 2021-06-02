@@ -12,15 +12,7 @@ body {
   padding-top: 10vmin;
   justify-content: center;
 }
-.sedan-div {
-  padding: 8vmin;
-  width: 21vw;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  background: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
 
-}
 h1 {
   font-family: 'Big Shoulders Display', sans-serif;
   text-transform: uppercase;
@@ -31,6 +23,16 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 25px;
   font-size: 1vmax;
+}
+
+.sedan-div {
+  padding: 8vmin;
+  width: 21vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+
 }
 .sedan-div button {
   font-family: 'Lexend Deca', sans-serif;
@@ -50,10 +52,33 @@ p {
   background: hsl(31, 77%, 52%);
   cursor: pointer;
 }
+
 .suv-div {
-  width: 30vw;
-  background: grey;
+  padding: 8vmin;
+  width: 21vw;
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
 }
+.suv-div button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.8vmax;
+  background: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-style: solid;
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  margin-top: 10vmin;
+  padding: 1em 2em;
+}
+.suv-div button:hover {
+  color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-color: hsl(0, 0%, 95%);
+  background: hsl(184, 100%, 22%);
+  cursor: pointer;
+}
+
+
 .luxury-div {
   width: 30vw;
   background: orange;
