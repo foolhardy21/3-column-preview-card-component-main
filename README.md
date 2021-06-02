@@ -23,7 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop](./screenshots/desktop.JPG)
+![Mobile](./screenshots/mobile.png)
 
 
 ### Links
